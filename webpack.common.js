@@ -36,7 +36,7 @@ module.exports = {
                 use: [
                     {
                         loader: "file-loader",
-                        options: { publicPath: __dirname + "/dist/assets", outputPath: "./assets" }
+                        options: { publicPath: "assets", outputPath: "./assets" }
                     }
                 ]
             },

@@ -1,0 +1,15 @@
+#artists {
+    width: 325px;
+    grid-area: artists;
+    overflow: hidden;
+
+    header h5 {
+        flex: 1 1;
+        font-weight: bold;
+    }
+
+    #artists-content {
+        flex: 1 1;
+        overflow: auto;
+    }
+}

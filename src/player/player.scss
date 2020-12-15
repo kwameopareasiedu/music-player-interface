@@ -1,0 +1,45 @@
+#player {
+    grid-area: player;
+    padding: 0 15px;
+
+    * {
+        color: white;
+    }
+
+    #track-art {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        object-fit: cover;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    #title {
+        font-weight: bold;
+    }
+
+    #meta {
+        color: #f3f3f3;
+    }
+
+    #time-track {
+        position: relative;
+        flex: 1 1;
+        height: 4px;
+        border-radius: 2px;
+        background-color: #e3e3e3;
+
+        #time-fill {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            background-color: white;
+        }
+    }
+}

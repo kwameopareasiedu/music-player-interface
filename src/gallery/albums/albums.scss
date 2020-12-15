@@ -1,0 +1,20 @@
+#albums {
+    margin-right: 15px;
+    grid-area: albums;
+    overflow: hidden;
+
+    .container {
+        padding: 0 50px;
+    }
+
+    header h1 {
+        flex: 1 1;
+        font-weight: bold;
+    }
+
+    #albums-content {
+        height: 100%;
+        overflow: auto;
+        flex: 1 1;
+    }
+}

@@ -1,0 +1,42 @@
+.nav-item {
+    height: 40px;
+    padding: 0 20px;
+    margin: 0 10px 0 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: background-color 0.3s;
+
+    i {
+        min-width: 40px;
+        font-size: 1.3rem;
+        color: transparent;
+        transition: color 0.3s;
+    }
+
+    span {
+        color: #89909c;
+        transition: color 0.3s;
+        flex: 1 1;
+    }
+
+    i:last-child {
+        min-width: unset;
+        font-size: 1rem;
+        color: #89909c;
+    }
+}
+
+.nav-item:hover,
+.nav-item.active {
+    cursor: pointer;
+    background-color: var(--primary-color);
+
+    i,
+    span {
+        color: white;
+    }
+}
+
+.nav-item.active {
+    box-shadow: 1px 2px 10px var(--primary-color);
+}

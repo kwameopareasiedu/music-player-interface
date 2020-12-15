@@ -1,0 +1,43 @@
+{
+    "name": "music-player-interface",
+    "version": "1.0.0",
+    "description": "",
+    "author": "",
+    "license": "MIT",
+    "scripts": {
+        "dev": "webpack --watch --mode development --config webpack.common.js",
+        "build": "webpack --mode production --config webpack.common.js"
+    },
+    "devDependencies": {
+        "@babel/core": "7.x.x",
+        "@babel/plugin-transform-react-jsx": "7.x.x",
+        "@babel/plugin-transform-spread": "7.x.x",
+        "@babel/preset-env": "7.x.x",
+        "@babel/preset-react": "7.x.x",
+        "@types/react": "16.x.x",
+        "@types/react-dom": "16.x.x",
+        "@typescript-eslint/eslint-plugin": "4.x.x",
+        "@typescript-eslint/parser": "4.x.x",
+        "autoprefixer": "10.x.x",
+        "babel-loader": "8.x.x",
+        "css-loader": "5.x.x",
+        "eslint": "7.x.x",
+        "eslint-config-defaults": "9.x.x",
+        "eslint-plugin-react": "7.x.x",
+        "faker": "5.x.x",
+        "file-loader": "6.x.x",
+        "node-sass": "5.x.x",
+        "postcss": "8.x.x",
+        "postcss-loader": "4.x.x",
+        "prettier": "2.x.x",
+        "react": "16.x.x",
+        "react-dom": "16.x.x",
+        "sass-loader": "10.x.x",
+        "style-loader": "2.x.x",
+        "ts-loader": "8.x.x",
+        "typescript": "4.x.x",
+        "url-loader": "4.x.x",
+        "webpack": "5.x.x",
+        "webpack-cli": "4.x.x"
+    }
+}

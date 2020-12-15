@@ -1,0 +1,43 @@
+.artist {
+    margin-bottom: 25px;
+
+    .artist-icon {
+        width: 60px;
+        height: 60px;
+        margin-right: 15px;
+        border-radius: 35px;
+        object-fit: contain;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .artist-info {
+        flex: 1 1;
+
+        p {
+            margin: 0;
+        }
+
+        p:first-child {
+            font-weight: bold;
+        }
+
+        p:last-child {
+            color: #89909c;
+        }
+    }
+
+    .options {
+        button {
+            color: #89909c;
+        }
+
+        button:hover {
+            text-decoration: none;
+        }
+    }
+}

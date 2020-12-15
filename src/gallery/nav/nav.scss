@@ -1,0 +1,20 @@
+#nav {
+    width: 250px;
+    height: 100%;
+    padding-top: 20px;
+    border-right: 1px solid #e3e3e3;
+    grid-area: nav;
+
+    #app-name {
+        display: grid;
+        width: 40px;
+        height: 40px;
+        color: white;
+        margin: 0 0 50px 20px;
+        border-radius: 30px;
+        background-color: var(--primary-color);
+        box-shadow: 0 0 10px var(--primary-color);
+        font-weight: bold;
+        place-items: center;
+    }
+}

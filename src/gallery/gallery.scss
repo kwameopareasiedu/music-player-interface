@@ -1,0 +1,13 @@
+#gallery {
+    display: grid;
+    background-color: white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+        "nav topbar topbar"
+        "nav albums artists";
+    grid-area: gallery;
+    overflow: hidden;
+}

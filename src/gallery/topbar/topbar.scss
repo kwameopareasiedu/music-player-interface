@@ -1,0 +1,27 @@
+#topbar {
+    height: 100px;
+    padding: 0 10px 0 50px;
+    grid-area: topbar;
+
+    input {
+        min-width: 400px;
+        width: auto;
+    }
+
+    #spacer {
+        flex: 1 1;
+    }
+
+    #profile-picture {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        object-fit: contain;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
